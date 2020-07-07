@@ -221,13 +221,12 @@ html {
 }
 
 .pagination-item {
-    padding: 0 12px;
+    margin: 0 12px;
 }
 
 .pagination-item--active .pagination-item__link{
     background-color: var(--primary-color);
     color: var(--white-color);
-    
 }
 
 .pagination-item--active:hover .pagination-item__link{
@@ -248,6 +247,6 @@ html {
     border-radius: 2px;
 }
 
-.pagination-item__icon {
+/* .pagination-item__icon {
 
-}
+} */
