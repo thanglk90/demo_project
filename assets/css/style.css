@@ -7,6 +7,10 @@
     font-family: "Montserrat", sans-serif;
 }
 
+.wechat {
+    width: 100%;
+}
+
 body {
     background: #585c68;
     font-size: 14px;
@@ -26,7 +30,7 @@ a {
 
 .semi-bold {
     font-weight: 500;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 .resume {
@@ -41,9 +45,17 @@ a {
     background: #0bb5f4;
 }
 
+.avatarBox {
+    
+}
+
+.avatarBox__img {
+
+}
+
 .resume .resume_left .resume_profile {
     width: 100%;
-    height: 280px;
+    /* height: 280px; */
     background-image: url('./images/me.png');
     background-size: cover;
     background-repeat: no-repeat;
@@ -54,6 +66,11 @@ a {
     width: 100%;
     height: 100%;
     object-fit: contain;
+}
+
+p {
+    color: black;
+    font-size: 16px;
 }
 
 .resume .resume_left .resume_content {
@@ -173,8 +190,8 @@ a {
 }
 
 .resume .resume_right ul li .date {
-    font-size: 16px;
-    font-weight: 500;
+    font-size: 20px;
+    font-weight: 600;
     margin-bottom: 15px;
 }
 
